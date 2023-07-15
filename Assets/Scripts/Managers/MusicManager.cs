@@ -10,7 +10,6 @@ public class MusicManager : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
     }
-     // test
     private void Start()
     {
         OptionUI.Instance.OnMusicVolumeChange += (newVolume) => audioSource.volume = newVolume;
