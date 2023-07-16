@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Bread_MeatPatty_Tomato
   m_EditorClassIdentifier: 
   prefab: {fileID: 1492423763561240125, guid: d75c8bee5a33569479c70cc949340b8a, type: 3}
-  sprite: {fileID: 21300000, guid: 114b0da55051c094b90c77403aff838e, type: 3}
+  sprite: {fileID: 21300000, guid: 7245c9c998a80e84988b2e7806f6e72d, type: 3}
   name: Burger_MeatPatty_Tomato
   containedKitchenObjectList:
   - {fileID: 11400000, guid: f115e9a52edaca64e8871cc993d2ba07, type: 2}

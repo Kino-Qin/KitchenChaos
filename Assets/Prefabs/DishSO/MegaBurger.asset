@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MegaBurger
   m_EditorClassIdentifier: 
   prefab: {fileID: 1492423763561240125, guid: 2267fd91bc3ce7449bf387ea63b712e3, type: 3}
-  sprite: {fileID: 21300000, guid: 114b0da55051c094b90c77403aff838e, type: 3}
+  sprite: {fileID: 21300000, guid: fcd1bc13a02497346aa5df82d5a5b0cb, type: 3}
   name: MegaBurger
   containedKitchenObjectList:
   - {fileID: 11400000, guid: f115e9a52edaca64e8871cc993d2ba07, type: 2}
