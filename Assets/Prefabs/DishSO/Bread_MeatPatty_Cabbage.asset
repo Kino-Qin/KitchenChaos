@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Bread_MeatPatty_Cabbage
   m_EditorClassIdentifier: 
   prefab: {fileID: 1492423763561240125, guid: 096055da21ccd27439a5f01543c599bd, type: 3}
-  sprite: {fileID: 21300000, guid: 114b0da55051c094b90c77403aff838e, type: 3}
+  sprite: {fileID: 21300000, guid: 44c570dac27a6b745bfb5482dd5b9a41, type: 3}
   name: Burger_MeatPatty_Cabbage
   containedKitchenObjectList:
   - {fileID: 11400000, guid: f115e9a52edaca64e8871cc993d2ba07, type: 2}

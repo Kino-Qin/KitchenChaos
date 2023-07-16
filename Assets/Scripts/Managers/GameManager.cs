@@ -75,6 +75,12 @@ public class GameManager : MonoBehaviour
         switch (state)
         {
             case GameState.waitingStart:
+                if (Input.GetMouseButtonDown(0))
+                {
+                    state = GameState.countDown;
+                    OnGameStateChange?.Invoke(state);
+                    timerCountDown = countDownTime;
+                }
                 break;
             case GameState.countDown:
                 timerCountDown -= Time.deltaTime;
@@ -98,7 +104,6 @@ public class GameManager : MonoBehaviour
             default:
                 break;
         }
-        Debug.Log(state);
     }
 
     public float GetCountDownTimer()
